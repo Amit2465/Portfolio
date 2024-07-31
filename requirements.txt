@@ -1,0 +1,4 @@
+streamlit
+Pillow
+streamlit-shadcn-ui
+streamlit-lottie

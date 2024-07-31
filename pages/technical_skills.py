@@ -56,6 +56,13 @@ with col12:
     ui.badges(badge_list=[("Pandas", "default"), ("Numpy", "default"), ("Scikit-learn", "default")], class_name="flex gap-2", key="data_science_techniques")             
 
 
+#operating system
+col13, col14 = st.columns((2))
+with col13:
+    st.markdown("Operating Systems")
+with col14:
+    ui.badges(badge_list=[("Windows", "default"), ("Linux", "default")], class_name="flex gap-2", key="operating_systems")    
+
 #miscellaneous
 col13, col14, = st.columns((2))
 with col13:

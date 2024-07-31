@@ -69,7 +69,7 @@ with st.container(border=True):
         autoeda = load_image('images/chatbot.json')
         st_lottie(autoeda, speed=1, loop=True, width=200, height=200,)  
     with col2:
-        st.markdown("### Chatbot")
+        st.markdown("### Assist AI")
         
 
 with st.container(border=True):
@@ -100,6 +100,15 @@ with st.container(border=True):
         st_lottie(autoeda, speed=1, loop=True, width=200, height=200,)  
     with col2:
         st.markdown("### Loan approval prediction")
+        st.markdown('''- <p style = "text-align: justify;">Developed a loan approval prediction model
+                    using a Support Vector Machine (SVM) with an accuracy of 83%. The model was built 
+                    with Python, leveraging libraries like Pandas, Scikit-learn, and Matplotlib to
+                    analyze features such as credit history, income, and loan amount.</p>'''
+                    , unsafe_allow_html=True)
+        
+        st.markdown('''- <p style = "text-align: justify;">Optimized for real-time predictions, the SVM
+                    model supports decision-making processes in financial institutions by providing 
+                    reliable and actionable insights into loan approval outcomes.</p>''', unsafe_allow_html=True)
         
         
 with st.container(border=True):

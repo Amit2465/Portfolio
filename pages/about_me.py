@@ -14,7 +14,7 @@ with st.container():
         st.subheader("Data Analyst")
         st.write('''<p style="text-align: justify;">👋🏻 Hi, I'm Amit! I'm a data science and analytics
                  professional based in Gujarat with a strong background in Data Analysis and Machine 
-                 Learning. My experience spans roles in News and Machine Automation sectors. I'm eager 
+                 Learning. My experience spans roles in Digital News and Machine Automation sectors. I'm eager 
                  to enhance my data science expertise and pursue broader career goals in this dynamic
                  field.</p>''', unsafe_allow_html=True)
         
@@ -22,8 +22,8 @@ with st.container():
                  Data Visualization, Cloud Technology, Software Development</p>''',
                  unsafe_allow_html=True)
         
-        st.write('''<p style="text-align: justify;">🏋🏻 In addition, I like to exercise in the gym, run,
-                 write, play video games and... enjoy eating good food in my free time!</p>''', 
+        st.write('''<p style="text-align: justify;">🏋🏻 I like to run, play video games, play chess, 
+                 and... enjoy eating good food in my free time!</p>''', 
                  unsafe_allow_html=True)
         
         st.write('''<p style="text-align: justify;">💭 Ideal Career Prospects: Data Analyst, 
@@ -37,3 +37,6 @@ with st.container():
     with right_column:
         Image=Image.open("images/amit_image.png")
         st.image(Image, width=240)
+
+
+         
