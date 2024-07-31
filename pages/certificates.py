@@ -22,36 +22,8 @@ sql1 = Image.open("images/sql1.jpg")
 sql2 = Image.open("images/sql2.jpg")
 shel1 = Image.open("images/shell.jpg")
 
-col1, col2, col3, col4, col5, col6 = st.columns((6), vertical_alignment='top')
-with col1:
-    with st.container(border = True):
-        st.image(AI, width=230)
-        st.markdown('''
-                        <p style="text-align: center;"><b>Artificial Intelligence</b></p>
-                        <p style="text-align: center;">Edunet Foundation & SAP</p>
-                    ''', unsafe_allow_html=True)
 
-
-with col2:
-    with st.container(border=True):
-        st.image(python, width=230)
-        st.markdown('''
-                        <p style="text-align: center;"><b>Python Programming </b></p>
-                        <p style="text-align: center;">Hackerrank</p>
-                    ''', unsafe_allow_html=True)
-        
-        
-with col3:
-    with st.container(border=True):
-        st.image(pandas, width=230)
-        st.markdown("</br>", unsafe_allow_html=True)
-        st.markdown("</br>", unsafe_allow_html=True)        
-        st.markdown('''
-                        <p style="text-align: center;"><b>Pandas </b></p>
-                        <p style="text-align: center;">Kaggle</p>
-                    ''', unsafe_allow_html=True)
-
-
+col4, col5, col6 = st.columns((3), vertical_alignment='top')
 with col4:
     with st.container(border=True):
         st.image(sql1, width=230)
@@ -84,6 +56,40 @@ with col6:
         st.markdown('''
                         <p style="text-align: center;"><b>Introduction to Shell </b></p>
                         <p style="text-align: center;">DataCamp</p>
-                    ''', unsafe_allow_html=True)                        
+                    ''', unsafe_allow_html=True)  
+
+
+
+col1, col2, col3 = st.columns((3), vertical_alignment='top')
+with col1:
+    with st.container(border = True):
+        st.image(AI, width=230)
+        st.markdown('''
+                        <p style="text-align: center;"><b>Artificial Intelligence</b></p>
+                        <p style="text-align: center;">Edunet Foundation & SAP</p>
+                    ''', unsafe_allow_html=True)
+
+
+with col2:
+    with st.container(border=True):
+        st.image(python, width=230)
+        st.markdown('''
+                        <p style="text-align: center;"><b>Python Programming </b></p>
+                        <p style="text-align: center;">Hackerrank</p>
+                    ''', unsafe_allow_html=True)
+        
+        
+with col3:
+    with st.container(border=True):
+        st.image(pandas, width=230)
+        st.markdown("</br>", unsafe_allow_html=True)
+        st.markdown("</br>", unsafe_allow_html=True)        
+        st.markdown('''
+                        <p style="text-align: center;"><b>Pandas </b></p>
+                        <p style="text-align: center;">Kaggle</p>
+                    ''', unsafe_allow_html=True)
+
+
+                      
         
         
