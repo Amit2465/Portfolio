@@ -59,7 +59,31 @@ with col4:
         st.markdown("</br>", unsafe_allow_html=True)        
         st.markdown('''
                         <p style="text-align: center;"><b>Introduction to SQL </b></p>
-                        <p style="text-align: center;">Datacamp</p>
-                    ''', unsafe_allow_html=True)        
+                        <p style="text-align: center;">DataCamp</p>
+                    ''', unsafe_allow_html=True)
+
+
+
+with col5:
+    with st.container(border=True):
+        st.image(sql2, width=230)
+        st.markdown("</br>", unsafe_allow_html=True)
+        st.markdown("</br>", unsafe_allow_html=True)        
+        st.markdown('''
+                        <p style="text-align: center;"><b>Intermediate SQL </b></p>
+                        <p style="text-align: center;">DataCamp</p>
+                    ''', unsafe_allow_html=True)
+
+
+
+with col6:
+    with st.container(border=True):
+        st.image(shel1, width=230)
+        st.markdown("</br>", unsafe_allow_html=True)
+        st.markdown("</br>", unsafe_allow_html=True)        
+        st.markdown('''
+                        <p style="text-align: center;"><b>Introduction to Shell </b></p>
+                        <p style="text-align: center;">DataCamp</p>
+                    ''', unsafe_allow_html=True)                        
         
         
