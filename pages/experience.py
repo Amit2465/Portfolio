@@ -9,7 +9,7 @@ st.markdown("</br>", unsafe_allow_html=True)
 
 # import image from local file
 analytics_drift = Image.open("images/Analytics drift.jpeg")
-machstatz = Image.open("images/Machstatz.Jpeg")
+machstatz = Image.open("images/Machstatz.jpeg")
 softyoug = Image.open("images/Softyoug.jpeg")
 
 
